@@ -158,6 +158,8 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .section__pic-container{
@@ -241,12 +243,14 @@ section {
 
 #about {
     position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .about-containers{
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .about-details-container{
@@ -276,4 +280,15 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+}
+
+.section-container{
+    gap: 2rem;
+    height: 80%;
+}
+
+.section__pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
