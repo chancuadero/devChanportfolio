@@ -292,3 +292,55 @@ section {
     width: 400px;
     margin: auto 0;
 }
+
+
+/* EXPERIENCE SECTION */
+
+#experience {
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.experience-sub-title {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.experience-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.details-containers{
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+article div{
+    margin-top: 2rem;
+}
+
+article h4{
+    color: rgb(85, 85, 85);
+}
+
+article .icon{
+    cursor: default;
+}
+
+
